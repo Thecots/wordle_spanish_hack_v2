@@ -36,7 +36,7 @@ async function doit() {
         return n;
       }
      }else{
-      if(!n[pg.position].includes(d.letter)){
+      if(!n[d.position].includes(d.letter)){
         return n;
       }
      }
